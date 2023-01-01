@@ -1,6 +1,6 @@
 import Intro from '~/components/Intro'
 import AboutMe from '~/components/AboutMe'
-
+import Worked from '~/components/Worked'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <div className="w-content-width mx-auto pt-24">
         <Intro />
         <AboutMe />
-
+        <Worked />
 
       </div>
       

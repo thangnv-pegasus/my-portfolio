@@ -22,9 +22,11 @@ module.exports = {
         "navy":"#0a192f",
         "lightest-slate":"#ccd6f6",
         "green-tint":"rgba(100,255,218,0.1)",
-        "light-green":"rgba(87, 203, 255, 0.4)"
+        "light-green":"rgba(87, 203, 255, 0.4)",
+        "light-navy":"#112240"
       },
       borderColor:{
+        "green-tint":"rgba(100,255,218,0.1)",
         'base-color':"#64ffda",
       },
       boxShadow:{
@@ -36,7 +38,8 @@ module.exports = {
       },
       gridTemplateColumns:{
         'col1_1_1':"1fr 1fr",
-        'col2_3_2':"3fr 2fr"
+        'col2_3_2':"3fr 2fr",
+        'col3_1_4':"1fr 4fr"
       }
     },
   },
