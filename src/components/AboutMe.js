@@ -1,11 +1,12 @@
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Title1 from "~/components/Title1";
+import { Title1 } from "~/components";
+import { avatar } from "~/img";
 
 function AboutMe() {
     return (
-        <div className="py-24">
-            <Title1 className="mb-5">About Me</Title1>
+        <div className="py-24" id="about" data-aos={"fade-up"} data-aos-anchor-placement="top-center" data-aos-duration="1000">
+            <Title1 className="mb-5 mt-24">About Me</Title1>
             <div className="grid grid-cols-col2_3_2 gap-12">
                 <div className="text-slate mt-10">
                     <p>
@@ -69,7 +70,7 @@ function AboutMe() {
                 </div>
                 <div className="w-80 h-80 rounded-md relative z-[1] group">
                     <img
-                        src="avatar.jpg"
+                        src={avatar}
                         alt="avatar"
                         className="object-cover object-center w-full h-full block rounded-md"
                     />

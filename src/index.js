@@ -3,10 +3,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "~/App";
 import "~/index.css";
-import Socials from "~/components/Socials";
-import Contact from "~/components/Contact";
+import { Socials, Contact } from "~/components";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

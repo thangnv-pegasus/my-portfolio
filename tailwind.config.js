@@ -8,10 +8,12 @@ module.exports = {
       colors:{
         'base-color':"#64ffda",
         'lightest-slate':"#ccd6f6",
-        "slate":"#8892b0"
+        "slate":"#8892b0",
+        "light-slate":"#a8b2d1"
       },
       fontFamily:{
-        'font_mono':["SF Mono","Fira Code","Fira Mono","Roboto Mono","monospace"]
+        'font_mono':["SF Mono","Fira Code","Fira Mono","Roboto Mono","monospace"],
+        'font_sans':["Calibre","Inter","San Francisco","SF Pro Text","-apple-system","system-ui","sans-serif"]
       },
       width:{
         "page-width":"1424px",
@@ -23,7 +25,8 @@ module.exports = {
         "lightest-slate":"#ccd6f6",
         "green-tint":"rgba(100,255,218,0.1)",
         "light-green":"rgba(87, 203, 255, 0.4)",
-        "light-navy":"#112240"
+        "light-navy":"#112240 !important",
+        "light-slate":"#a8b2d1"
       },
       borderColor:{
         "green-tint":"rgba(100,255,218,0.1)",
@@ -40,6 +43,19 @@ module.exports = {
         'col1_1_1':"1fr 1fr",
         'col2_3_2':"3fr 2fr",
         'col3_1_4':"1fr 4fr"
+      },
+      keyframes:{
+        showMore:{
+          "0%":{
+            height: "574px"
+          },
+          "100%":{
+            height: "100%"
+          }
+        }
+      },
+      animation:{
+        "show_more": "showMore linear 0.3s"
       }
     },
   },

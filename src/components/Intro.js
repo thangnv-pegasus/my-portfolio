@@ -1,8 +1,8 @@
-import Button from '~/components/Button'
+import {Button} from '~/components'
 
 function Intro() {
     return (
-        <div className="pt-24 text-lightest-slate py-24">
+        <div className="pt-24 text-lightest-slate">
             <div className="text-base-color mb-8">Hi, my name is</div>
             <h2 className="text-heading2 font-semibold leading-[1.1]">Thang Nguyen Van</h2>
             <h2 className="text-heading2 font-semibold leading-[1.1] text-slate">
