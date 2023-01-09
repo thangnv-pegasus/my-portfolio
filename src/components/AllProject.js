@@ -79,6 +79,12 @@ const projects = [
 function AllProject({ githubLink = "" }) {
     const [show, setShow] = useState(false);
 
+    const [heightProject, setHeightProject] = useState(0);
+
+    let gapValue = 20;
+    let height = gapValue * 2 + heightProject * 2;
+
+
     return (
         <div
             className="py-20 font-font_sans"
@@ -91,8 +97,8 @@ function AllProject({ githubLink = "" }) {
                 View on Github
             </a>
             <div
-                className="grid grid-cols-3 gap-5 mt-10 transition-all ease-linear duration-200 h-[574px] overflow-hidden"
-                style={show ? { height: "unset" } : { height: "574px" }}
+                className={`grid mt-10 pt-4 gap-5 transition-all ease-linear duration-200 overflow-hidden xl:grid-cols-3 md:grid-cols-2` }
+                style={show ? { height: "unset" } : { height: `${height}px` }}
             >
                 {projects.map((item, index) => {
                     return (
@@ -103,6 +109,7 @@ function AllProject({ githubLink = "" }) {
                             tools={item.project_tools}
                             description={item.project_description}
                             project_name={item.project_name}
+                            setHeightProject={setHeightProject}
                         />
                     );
                 })}

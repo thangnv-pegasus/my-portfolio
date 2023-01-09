@@ -2,12 +2,34 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { faFolder } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useEffect, useRef } from "react";
 
-function Project({ githubLink = "", deployLink = "", tools = [], description = "", project_name = "" }) {
+function Project({ githubLink = "", deployLink = "", tools = [], description = "", project_name = "",setHeightProject }) {
+
+    const refProject = useRef();
+
+    const getHeight = (height) => {
+        return setHeightProject(height)
+    }
+    let windowScreen;
+    
+
+
+    useEffect(()=>{
+        const element = refProject.current
+        // console.log(element.offsetHeight)
+        window.addEventListener('resize',(e)=>{
+            windowScreen = e.target.innerWidth;
+            getHeight(element.offsetHeight)
+        })
+        getHeight(element.offsetHeight)
+    },[])
+
     return (
         <a
             href={deployLink}
-            className="py-7 px-8 my-1 bg-light-navy block rounded-sm transition-all ease-linear duration-150 hover:translate-y-[-6px]"
+            className="py-7 px-8 bg-light-navy block rounded-sm transition-all ease-linear duration-150 hover:translate-y-[-6px]"
+            ref={refProject}
         >
             <div className="flex text-lightest-slate justify-between items-center text-lg">
                 <span className="text-4xl text-base-color">

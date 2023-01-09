@@ -7,7 +7,7 @@ function AboutMe() {
     return (
         <div className="py-24" id="about" data-aos={"fade-up"} data-aos-anchor-placement="top-center" data-aos-duration="1000">
             <Title1 className="mb-5 mt-24">About Me</Title1>
-            <div className="grid grid-cols-col2_3_2 gap-12">
+            <div className="grid gap-12 grid-cols-1 md:grid-cols-col2_3_2">
                 <div className="text-slate mt-10">
                     <p>
                         Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in
@@ -68,12 +68,13 @@ function AboutMe() {
                         </ul>
                     </div>
                 </div>
-                <div className="w-80 h-80 rounded-md relative z-[1] group">
+                <div className="w-80 h-80 rounded-md relative z-[1] group mx-auto md:m-0 group">
                     <img
                         src={avatar}
                         alt="avatar"
                         className="object-cover object-center w-full h-full block rounded-md"
                     />
+                    <span className="absolute top-0 left-0 right-0 bottom-0 bg-[rgba(13,31,52,0.7)] transition-all ease-linear duration-200 group-hover:bg-transparent"></span>
                     <div className="absolute top-0 right-0 bottom-0 left-0 border-base-color border-solid border-[1px] translate-x-5 translate-y-5 z-[-1] rounded-md transition-all duration-150 ease-linear group-hover:translate-x-3 group-hover:translate-y-3"></div>
                 </div>
             </div>

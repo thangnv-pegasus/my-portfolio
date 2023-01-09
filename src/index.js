@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "~/App";
 import "~/index.css";
-import { Socials, Contact } from "~/components";
+
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import AOS from "aos";
@@ -13,10 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
         <BrowserRouter>
-            <Header />
             <App />
-            <Socials />
-            <Contact />
         </BrowserRouter>
     </React.StrictMode>
 );

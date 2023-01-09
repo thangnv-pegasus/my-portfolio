@@ -1,9 +1,11 @@
-import { Intro, AboutMe, Worked, GetInTouch, CopyRight, MyProject, AllProject } from "~/components";
+import { Intro, AboutMe, Worked, GetInTouch, CopyRight, MyProject, AllProject, Header } from "~/components";
+import { Socials, Contact } from "~/components";
 
 function App() {
     return (
-        <div className="App font-font_mono bg-navy">
-            <div className="w-content-width mx-auto pt-24">
+        <div className="App font-font_mono bg-navy w-full overflow-hidden">
+            <Header />
+            <div className=" max-w-full mx-auto pt-24 px-28 lg:w-content-width xl:px-0">
                 <Intro />
                 <AboutMe />
                 <Worked />
@@ -15,6 +17,8 @@ function App() {
                 </GetInTouch>
                 <CopyRight />
             </div>
+            <Socials />
+            <Contact />
         </div>
     );
 }

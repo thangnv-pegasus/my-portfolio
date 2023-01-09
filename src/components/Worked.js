@@ -7,8 +7,8 @@ function Worked() {
     return (
         <div className="text-slate py-28" id="worked" data-aos={"fade-up"} data-aos-anchor-placement="top-center" data-aos-duration="1000">
             <Title1 className="py-14 mt-24">Where I've Worked</Title1>
-            <div className="tablist grid grid-cols-col3_1_4 gap-14">
-                <ul className="relative">
+            <div className="tablist sm:flex lg:grid lg:grid-cols-col3_1_4 lg:gap-14">
+                <ul className="relative sm:pr-4">
                     <li
                         className="h-11 leading-[42px] px-5 cursor-pointer transition-all duration-150 ease-linear border-l-2 border-solid border-green-tint hover:bg-light-navy  hover:text-base-color"
                         style={

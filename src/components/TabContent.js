@@ -6,7 +6,7 @@ function TabContent({ listContent = [] }) {
         <div>
             {listContent.map((item,index) => {
                 return (
-                <div className="flex pr-32 my-3" key={index}>
+                <div className="flex sm:pr-0 lg:pr-32 my-3" key={index}>
                     <span className="mr-4 text-base-color translate-y-1">
                         <FontAwesomeIcon icon={faCaretRight} />
                     </span>
