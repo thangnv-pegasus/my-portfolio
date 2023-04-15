@@ -5,24 +5,22 @@ import { avatar } from "~/img";
 
 function AboutMe() {
     return (
-        <div className="py-24" id="about" data-aos={"fade-up"} data-aos-anchor-placement="top-center" data-aos-duration="1000">
+        <div
+            className="py-24"
+            id="about"
+            data-aos={"fade-up"}
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="1000"
+        >
             <Title1 className="mb-5 mt-24">About Me</Title1>
             <div className="grid gap-12 grid-cols-1 md:grid-cols-col2_3_2">
                 <div className="text-slate mt-10">
-                    <p>
-                        Hello! My name is Brittany and I enjoy creating things that live on the internet. My interest in
-                        web development started back in 2012 when I decided to try editing custom Tumblr themes — turns
-                        out hacking together a custom reblog button taught me a lot about HTML & CSS!
-                    </p>
-                    <p className="my-6">
-                        Fast-forward to today, and I've had the privilege of working at an advertising agency, a
-                        start-up, a huge corporation, and a student-led design studio. My main focus these days is
-                        building accessible, inclusive products and digital experiences at Upstatement for a variety of
-                        clients.
-                    </p>
-                    <p>
-                        I also recently launched a course that covers everything you need to build a web app with the
-                        Spotify API using Node & React.
+                    <p className="mb-6">
+                        With all the knowledge of what's in school and courses, I've always wanted to be a Front-end
+                        developer. Having a solid knowledge of Html, Css, JavaScript and ReactJs, plus skills I hone on
+                        a daily basis. I always want to devote myself to helping the company grow and achieve for
+                        myself. I look forward to joining the company in a professional working environment to perfect,
+                        develop programming skills as well as improve myself.
                     </p>
                     <p className="my-6">Here are a few technologies I've been working with recently:</p>
                     <div className="grid grid-cols-col1_1_1">
@@ -39,12 +37,12 @@ function AboutMe() {
                                 </span>{" "}
                                 ReactJs
                             </li>
-                            <li className="flex items-center my-2">
+                            {/* <li className="flex items-center my-2">
                                 <span className="text-base-color mr-2">
                                     <FontAwesomeIcon icon={faCaretRight} />
                                 </span>{" "}
                                 TypeScript
-                            </li>
+                            </li> */}
                         </ul>
                         <ul>
                             <li className="flex items-center my-2">
@@ -59,12 +57,12 @@ function AboutMe() {
                                 </span>{" "}
                                 Tailwind
                             </li>
-                            <li className="flex items-center my-2">
+                            {/* <li className="flex items-center my-2">
                                 <span className="text-base-color mr-2">
                                     <FontAwesomeIcon icon={faCaretRight} />
                                 </span>{" "}
                                 Material UI
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

@@ -5,7 +5,13 @@ function Worked() {
     const [state, setState] = useState(1);
 
     return (
-        <div className="text-slate py-28" id="worked" data-aos={"fade-up"} data-aos-anchor-placement="top-center" data-aos-duration="1000">
+        <div
+            className="text-slate py-28"
+            id="worked"
+            data-aos={"fade-up"}
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="1000"
+        >
             <Title1 className="py-14 mt-24">Where I've Worked</Title1>
             <div className="tablist sm:flex lg:grid lg:grid-cols-col3_1_4 lg:gap-14">
                 <ul className="relative sm:pr-4">
@@ -30,7 +36,7 @@ function Worked() {
                         }
                         onClick={() => setState(1)}
                     >
-                        Upstatement
+                        GiaSuDoHang
                     </li>
                     <li
                         className="h-11 leading-[42px] px-5 cursor-pointer transition-all duration-150 ease-linear border-l-2 border-solid border-green-tint hover:bg-light-navy hover:text-base-color"
@@ -53,7 +59,7 @@ function Worked() {
                         }
                         onClick={() => setState(2)}
                     >
-                        Scout
+                        Bavaan
                     </li>
                     <li
                         className="h-11 leading-[42px] px-5 cursor-pointer transition-all duration-150 ease-linear border-l-2 border-solid border-green-tint hover:bg-light-navy hover:text-base-color"
@@ -76,7 +82,7 @@ function Worked() {
                         }
                         onClick={() => setState(3)}
                     >
-                        Apple
+                        HNUE
                     </li>
                     <li
                         className="h-11 leading-[42px] px-5 cursor-pointer transition-all duration-150 ease-linear border-l-2 border-solid border-green-tint hover:bg-light-navy hover:text-base-color"
@@ -99,9 +105,9 @@ function Worked() {
                         }
                         onClick={() => setState(4)}
                     >
-                        Starry
+                        GiaSuDoHang
                     </li>
-                    <li
+                    {/* <li
                         className="h-11 leading-[42px] px-5 cursor-pointer transition-all duration-150 ease-linear border-l-2 border-solid border-green-tint hover:bg-light-navy hover:text-base-color"
                         style={
                             state === 5
@@ -123,70 +129,80 @@ function Worked() {
                         onClick={() => setState(5)}
                     >
                         MullenLowe
-                    </li>
+                    </li> */}
                 </ul>
                 <div>
                     {state === 1 && (
                         <>
-                            <TabHeading heading="Engineer @ Upstatement" subHeading="May 2018 - Present" />
+                            <TabHeading heading="Tutoring at home @ GiaSuDoHang" subHeading="January 2023 - Present" />
                             <TabContent
                                 listContent={[
-                                    "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-                                    "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-                                    "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+                                    "Help students review what they have learned",
+                                    "Answer questions related to the lesson content for students",
+                                    "Guide students to solve applied exercises from easy to difficult, from basic to advanced",
+                                    "Improve students writing skills",
                                 ]}
                             />
                         </>
                     )}
                     {state === 2 && (
                         <>
-                            <TabHeading heading="Studio Developer @ Scout" subHeading="January - April 2018" />
+                            <TabHeading
+                                heading="Intern front-end @ Bavaan"
+                                subHeading="September 2022 - December 2022"
+                            />
                             <TabContent
                                 listContent={[
-                                    "Worked with a team of three designers to build a marketing website and e-commerce platform for blistabloc, an ambitious startup originating from Northeastern",
-                                    "Helped solidify a brand direction for blistabloc that spans both packaging and web",
-                                    "Interfaced with clients on a weekly basis, providing technological expertise",
+                                    "Participate in making e-commerce products for the company",
+                                    "Work with a variety of different languages, platforms, frameworks such as JavaScript, TypeScript, NextJs, ReactJs, Liquid, Hydrogen, Tailwind",
                                 ]}
                             />
                         </>
                     )}
                     {state === 3 && (
                         <>
-                            <TabHeading heading="UI Engineer Co-op @ Apple" subHeading="July - December 2017" />
+                            <TabHeading
+                                heading="Teaching Assistant @ Ha Noi University of Education"
+                                subHeading="September 2022 - December 2022"
+                            />
                             <TabContent
                                 listContent={[
-                                    "Developed and shipped highly interactive web applications for Apple Music using Ember.js",
-                                    "Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs",
-                                    "Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser",
-                                    "Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps",
+                                    "Assist teachers with lesson preparation by preparing materials and preparing classroom teaching aids.",
+                                    "Supervise students during class time and school/center activities, field trips, and extracurricular activities.",
+                                    "Collaborate with teachers to recognize the problems students are facing and suggest directions and help implement solutions.",
+                                    "Correct homework for students, students, practice with them when needed.",
                                 ]}
                             />
                         </>
                     )}
                     {state === 4 && (
                         <>
-                            <TabHeading heading="Software Engineer Co-op @ Starry" subHeading="July - December 2016" />
+                            <TabHeading heading="Tutoring at home @ GiaSuDoHang" subHeading="October 2021 - May 2022" />
                             <TabContent
                                 listContent={[
-                                    "Engineered and maintained major features of Starry's customer-facing web app using ES6, Handlebars, Backbone, Marionette and CSS",
-                                    "Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with Starry Station",
-                                    "Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across Starry’s iOS and Android mobile apps"
+                                    "Help students review what they have learned",
+                                    "Answer questions related to the lesson content for students",
+                                    "Guide students to solve applied exercises from easy to difficult, from basic to advanced",
+                                    "Improve students writing skills",
                                 ]}
                             />
                         </>
                     )}
-                    {state === 5 && (
+                    {/* {state === 5 && (
                         <>
-                            <TabHeading heading="Creative Technologist Co-op @ MullenLowe" subHeading="July - December 2015" />
+                            <TabHeading
+                                heading="Creative Technologist Co-op @ MullenLowe"
+                                subHeading="July - December 2015"
+                            />
                             <TabContent
                                 listContent={[
                                     "Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery",
                                     "Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness",
-                                    "Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more"
+                                    "Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more",
                                 ]}
                             />
                         </>
-                    )}
+                    )} */}
                 </div>
             </div>
         </div>
