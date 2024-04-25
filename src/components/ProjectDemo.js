@@ -13,6 +13,7 @@ function ProjectDemo({
     contentPosition = "left",
     className = "",
     githubLink = "",
+    githubLink2 = "",
     deployLink = "",
 }) {
     let contentCss = "";
@@ -39,7 +40,7 @@ function ProjectDemo({
     }
     return (
         <div
-            className={`${className} grid grid-cols-12 gap-3 py-12 relative`}
+            className={`${className} grid grid-cols-12 gap-3 py-12 relative select-none`}
             data-aos={"fade-up"}
             data-aos-anchor-placement="top-center"
             data-aos-duration="1000"
@@ -83,13 +84,25 @@ function ProjectDemo({
                     <a
                         href={githubLink}
                         className="block mr-6 transition-all ease-linear duration-150 hover:text-base-color"
+                        title="front-end"
                     >
                         {" "}
                         <FontAwesomeIcon icon={faGithub} />{" "}
                     </a>
+                    {githubLink2 && (
+                        <a
+                            href={githubLink2}
+                            className="block mr-6 transition-all ease-linear duration-150 hover:text-base-color"
+                            title="back-end"
+                        >
+                            {" "}
+                            <FontAwesomeIcon icon={faGithub} />{" "}
+                        </a>
+                    )}
                     <a
                         href={deployLink}
                         className="block transition-all ease-linear duration-150 hover:text-base-color"
+                        title="deploy"
                     >
                         {" "}
                         <FontAwesomeIcon icon={faUpRightFromSquare} />{" "}

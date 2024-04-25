@@ -1,46 +1,66 @@
 import { ProjectDemo, Title1 } from "~/components";
-import { foodShopImg } from "~/img";
+import { NdShoesImg, foodShopImg, BanGheHoaMaiImg, TwShop } from "~/img";
 
 function MyProject() {
     return (
-        <div className="py-28" id="my-project" data-aos={"fade-up"} data-aos-anchor-placement="top-center" data-aos-duration="1000">
+        <div
+            className="py-28"
+            id="my-project"
+            data-aos={"fade-up"}
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="1000"
+        >
             <Title1 className="mt-24">Some Things I've Built</Title1>
             <ProjectDemo
                 imgSrc={foodShopImg}
                 subTitle="Featured Project"
                 title="Food Shop"
                 listContent={[
-                    "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+                    "Website about buying and selling clean food with functions such as: add, edit, delete products in the cart, search, filter products. In addition, I also added the login function, register an account for users to look like other websites",
                 ]}
                 tools={["ReactJs", "SCSS", "Swiper slider"]}
-                githubLink = "https://github.com/PlayBi2/food-shop"
+                githubLink="https://github.com/PlayBi2/food-shop"
                 deployLink="https://food-shop-negative.vercel.app/"
-                key = {1}
+                key={1}
             />
             <ProjectDemo
-                imgSrc={foodShopImg}
+                imgSrc={NdShoesImg}
                 subTitle="Featured Project"
-                title="My Project"
+                title="ND-Shoes"
                 contentPosition="right"
                 listContent={[
-                    "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+                    "This is a project that I completed during one of my introductory software engineering courses and it also helped me review my knowledge. Although I don't have much time, I have also added basic functions to the website such as adding, editing, deleting products in the cart, searching, logging in, registering an account for users.",
                 ]}
                 tools={["ReactJs", "SCSS", "Swiper slider"]}
-                githubLink = "https://github.com/PlayBi2/food-shop"
-                deployLink="https://food-shop-negative.vercel.app/"
-                key = {2}
+                githubLink="https://github.com/PlayBi2/nd-shoes"
+                deployLink="https://nd-shoes.vercel.app/"
+                key={2}
             />
             <ProjectDemo
-                imgSrc={foodShopImg}
+                imgSrc={BanGheHoaMaiImg}
                 subTitle="Featured Project"
-                title="My Project"
+                title="Bàn Ghế Hoa Mai"
                 listContent={[
-                    "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
+                    "Full-stack e-commerce website. I developed this website using laravel and ReactJs. The website allows users to make purchases and admins can manage orders and products",
                 ]}
-                tools={["ReactJs", "SCSS", "Swiper slider"]}
-                githubLink = "https://github.com/PlayBi2/food-shop"
+                tools={["ReactJs", "Laravel", "Cloudinary","Tailwind"]}
+                githubLink="https://github.com/PlayBi2/bangtot-web"
+                githubLink2="https://github.com/PlayBi2/bangtot-api"
                 deployLink="https://food-shop-negative.vercel.app/"
-                key = {3}
+                key={3}
+            />
+            <ProjectDemo
+                imgSrc={TwShop}
+                subTitle="Featured Project"
+                title="MMO Shop"
+                contentPosition="right"
+                listContent={[
+                    "This is a project that I completed during one of my introductory software engineering courses and it also helped me review my knowledge. Although I don't have much time, I have also added basic functions to the website such as adding, editing, deleting products in the cart, searching, logging in, registering an account for users.",
+                ]}
+                tools={["ReactJs", "Tailwind", "Firebase", "Context API"]}
+                githubLink="https://github.com/PlayBi2/tw-shop"
+                deployLink="https://tw-shop-1c92b.web.app/"
+                key={2}
             />
         </div>
     );

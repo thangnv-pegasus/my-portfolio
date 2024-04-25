@@ -23,7 +23,7 @@ function Header() {
 
     return (
         <div
-            className="h-24 bg-base_bg w-full backdrop-blur-md text-white font-font_mono fixed transition-all duration-400 ease shadow-custom z-10 px-6 md:px-12"
+            className="h-24 select-none bg-base_bg w-full backdrop-blur-md text-white font-font_mono fixed transition-all duration-400 ease shadow-custom z-10 px-6 md:px-12"
             ref={headerRef}
         >
             <div className=" max-w-full mx-auto h-24 flex items-center justify-between lg:w-page-width">

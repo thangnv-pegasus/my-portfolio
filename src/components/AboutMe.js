@@ -37,33 +37,46 @@ function AboutMe() {
                                 </span>{" "}
                                 ReactJs
                             </li>
-                            {/* <li className="flex items-center my-2">
+                            <li className="flex items-center my-2">
                                 <span className="text-base-color mr-2">
                                     <FontAwesomeIcon icon={faCaretRight} />
                                 </span>{" "}
                                 TypeScript
-                            </li> */}
+                            </li>
+                            <li className="flex items-center my-2">
+                                <span className="text-base-color mr-2">
+                                    <FontAwesomeIcon icon={faCaretRight} />
+                                </span>{" "}
+                                Redux Toolkit
+                            </li>
                         </ul>
                         <ul>
                             <li className="flex items-center my-2">
                                 <span className="text-base-color mr-2">
                                     <FontAwesomeIcon icon={faCaretRight} />
                                 </span>{" "}
-                                Liquid
+                                Liquid Shopify
                             </li>
                             <li className="flex items-center my-2">
                                 <span className="text-base-color mr-2">
                                     <FontAwesomeIcon icon={faCaretRight} />
                                 </span>{" "}
-                                Tailwind
+                                Tailwind Css
                             </li>
-                            {/* <li className="flex items-center my-2">
+                            <li className="flex items-center my-2">
                                 <span className="text-base-color mr-2">
                                     <FontAwesomeIcon icon={faCaretRight} />
                                 </span>{" "}
-                                Material UI
-                            </li> */}
+                                NextJs(Loading)
+                            </li>
+                            <li className="flex items-center my-2">
+                                <span className="text-base-color mr-2">
+                                    <FontAwesomeIcon icon={faCaretRight} />
+                                </span>{" "}
+                                Firebase, Cloudinary
+                            </li>
                         </ul>
+                        
                     </div>
                 </div>
                 <div className="w-80 h-80 rounded-md relative z-[1] group mx-auto md:m-0 group">

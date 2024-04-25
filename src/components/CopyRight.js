@@ -9,7 +9,7 @@ function CopyRight() {
             <div className="none sm:flex sm:justify-center">
                 <a
                     href="https://github.com/PlayBi2"
-                    className="mr-8 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
+                    className="mx-4 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
                     title="Github"
                 >
                     {" "}
@@ -17,7 +17,7 @@ function CopyRight() {
                 </a>
                 <a
                     href="https://www.instagram.com/n.e.g.a.0.1/"
-                    className="mr-8 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
+                    className="mx-4 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
                     title="Instagram"
                 >
                     {" "}
@@ -25,7 +25,7 @@ function CopyRight() {
                 </a>
                 <a
                     href="https://twitter.com/PlayBi_02"
-                    className="mr-8 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
+                    className="mx-4 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
                     title=""
                 >
                     {" "}
@@ -33,7 +33,7 @@ function CopyRight() {
                 </a>
                 <a
                     href=""
-                    className="mr-8 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
+                    className="mx-4 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
                     title=""
                 >
                     {" "}
@@ -41,7 +41,7 @@ function CopyRight() {
                 </a>
                 <a
                     href=""
-                    className="mr-8 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
+                    className="mx-4 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
                     title=""
                 >
                     {" "}

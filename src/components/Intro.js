@@ -7,7 +7,7 @@ function Intro() {
             <h2 className="text-heading2 font-semibold leading-[1.1]">Thang Nguyen Van</h2>
             <h2 className="text-heading2 font-semibold leading-[1.1] text-slate">I'm a front-end developer.</h2>
             <div className="mt-5 max-w-xl text-slate text-xl">
-                I'm a 3rd year student at the Faculty of Information Technology, Hanoi National University of
+                I'm a 4th year student at the Faculty of Information Technology, Hanoi National University of
                 Education.
             </div>
             <a
