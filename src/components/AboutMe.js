@@ -47,7 +47,7 @@ function AboutMe() {
                                 <span className="text-base-color mr-2">
                                     <FontAwesomeIcon icon={faCaretRight} />
                                 </span>{" "}
-                                Redux Toolkit
+                                Laravel, MySql
                             </li>
                         </ul>
                         <ul>

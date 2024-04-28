@@ -2,77 +2,62 @@ import { useState } from "react";
 import { Project } from "~/components";
 
 const projects = [
+    
     {
-        projectDeployLink: "https://food-shop-negative.vercel.app/",
-        projectGithubLink: "https://github.com/PlayBi2/food-shop",
+        projectDeployLink: "http://banghehoamai.com/",
+        projectGithubLink: "https://github.com/PlayBi2/bangtot-web",
         project_description:
             "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
-        project_tools: ["ReactJs", "SCSS", "Typescript", "Swiper"],
-        project_name: "Food Shop",
+        project_tools: ["ReactJs", "Laravel", "Tailwind", "SwiperJs"],
+        project_name: "BangGhe Shop",
+    },
+    {
+        projectDeployLink: "https://thangnv-portfolio.vercel.app/",
+        projectGithubLink: "https://github.com/PlayBi2/my-portfolio",
+        project_description:
+            "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
+        project_tools: ["ReactJs", "Tailwind", "AOS animation"],
+        project_name: "My Portfolio",
+    },
+    {
+        projectDeployLink: "https://chat-app-2-7b1f0.web.app/",
+        projectGithubLink: "https://github.com/PlayBi2/chat-app",
+        project_description:
+            "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
+        project_tools: ["ReactJs", "Firebase", "Context API", "Tailwind"],
+        project_name: "Chat App",
     },
     {
         projectDeployLink: "https://food-shop-negative.vercel.app/",
         projectGithubLink: "https://github.com/PlayBi2/food-shop",
         project_description:
             "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
-        project_tools: ["ReactJs", "SCSS", "Typescript", "Swiper"],
+        project_tools: ["ReactJs", "SCSS", "TippyJs"],
         project_name: "Food Shop",
     },
     {
-        projectDeployLink: "https://food-shop-negative.vercel.app/",
-        projectGithubLink: "https://github.com/PlayBi2/food-shop",
+        projectDeployLink: "https://tw-shop-1c92b.web.app/",
+        projectGithubLink: "https://github.com/PlayBi2/tw-shop",
         project_description:
             "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
-        project_tools: ["ReactJs", "SCSS", "Typescript", "Swiper"],
-        project_name: "Food Shop",
+        project_tools: ["ReactJs", "Tailwind", "Firebase", "Swiper"],
+        project_name: "Medical Shop",
     },
     {
-        projectDeployLink: "https://food-shop-negative.vercel.app/",
-        projectGithubLink: "https://github.com/PlayBi2/food-shop",
+        projectDeployLink: "https://nd-shoes.vercel.app/",
+        projectGithubLink: "https://github.com/PlayBi2/nd-shoes",
         project_description:
             "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
-        project_tools: ["ReactJs", "SCSS", "Typescript", "Swiper"],
-        project_name: "Food Shop",
+        project_tools: ["ReactJs", "Tailwind", "SwiperJs"],
+        project_name: "Sneaker Shop",
     },
     {
-        projectDeployLink: "https://food-shop-negative.vercel.app/",
-        projectGithubLink: "https://github.com/PlayBi2/food-shop",
+        projectDeployLink: "https://todo-list-7e9fe.web.app/",
+        projectGithubLink: "https://github.com/PlayBi2/todo-app",
         project_description:
             "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
-        project_tools: ["ReactJs", "SCSS", "Typescript", "Swiper"],
-        project_name: "Food Shop",
-    },
-    {
-        projectDeployLink: "https://food-shop-negative.vercel.app/",
-        projectGithubLink: "https://github.com/PlayBi2/food-shop",
-        project_description:
-            "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
-        project_tools: ["ReactJs", "SCSS", "Typescript", "Swiper"],
-        project_name: "Food Shop",
-    },
-    {
-        projectDeployLink: "https://food-shop-negative.vercel.app/",
-        projectGithubLink: "https://github.com/PlayBi2/food-shop",
-        project_description:
-            "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
-        project_tools: ["ReactJs", "SCSS", "Typescript", "Swiper"],
-        project_name: "Food Shop",
-    },
-    {
-        projectDeployLink: "https://food-shop-negative.vercel.app/",
-        projectGithubLink: "https://github.com/PlayBi2/food-shop",
-        project_description:
-            "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
-        project_tools: ["ReactJs", "SCSS", "Typescript", "Swiper"],
-        project_name: "Food Shop",
-    },
-    {
-        projectDeployLink: "https://food-shop-negative.vercel.app/",
-        projectGithubLink: "https://github.com/PlayBi2/food-shop",
-        project_description:
-            "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
-        project_tools: ["ReactJs", "SCSS", "Typescript", "Swiper"],
-        project_name: "Food Shop",
+        project_tools: ["ReactJs", "Tailwind", "Firebase"],
+        project_name: "Todo App",
     },
 ];
 
