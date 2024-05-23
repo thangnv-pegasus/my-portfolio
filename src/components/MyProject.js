@@ -19,7 +19,7 @@ function MyProject() {
                     "Website about buying and selling clean food with functions such as: add, edit, delete products in the cart, search, filter products. In addition, I also added the login function, register an account for users to look like other websites",
                 ]}
                 tools={["ReactJs", "SCSS", "Swiper slider"]}
-                githubLink="https://github.com/PlayBi2/food-shop"
+                githubLink="https://github.com/thangnv-pegasus/food-shop"
                 deployLink="https://food-shop-negative.vercel.app/"
                 key={1}
             />
@@ -32,7 +32,7 @@ function MyProject() {
                     "This is a project that I completed during one of my introductory software engineering courses and it also helped me review my knowledge. Although I don't have much time, I have also added basic functions to the website such as adding, editing, deleting products in the cart, searching, logging in, registering an account for users.",
                 ]}
                 tools={["ReactJs", "SCSS", "Swiper slider"]}
-                githubLink="https://github.com/PlayBi2/nd-shoes"
+                githubLink="https://github.com/thangnv-pegasus/nd-shoes"
                 deployLink="https://nd-shoes.vercel.app/"
                 key={2}
             />
@@ -44,8 +44,8 @@ function MyProject() {
                     "Full-stack e-commerce website. I developed this website using laravel and ReactJs. The website allows users to make purchases and admins can manage orders and products",
                 ]}
                 tools={["ReactJs", "Laravel", "Cloudinary","Tailwind"]}
-                githubLink="https://github.com/PlayBi2/bangtot-web"
-                githubLink2="https://github.com/PlayBi2/bangtot-api"
+                githubLink="https://github.com/thangnv-pegasus/bangtot-web"
+                githubLink2="https://github.com/thangnv-pegasus/bangtot-api"
                 deployLink="https://food-shop-negative.vercel.app/"
                 key={3}
             />
@@ -58,7 +58,7 @@ function MyProject() {
                     "This is a project that I completed during one of my introductory software engineering courses and it also helped me review my knowledge. Although I don't have much time, I have also added basic functions to the website such as adding, editing, deleting products in the cart, searching, logging in, registering an account for users.",
                 ]}
                 tools={["ReactJs", "Tailwind", "Firebase", "Context API"]}
-                githubLink="https://github.com/PlayBi2/tw-shop"
+                githubLink="https://github.com/thangnv-pegasus/tw-shop"
                 deployLink="https://tw-shop-1c92b.web.app/"
                 key={2}
             />

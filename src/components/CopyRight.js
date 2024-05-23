@@ -8,7 +8,7 @@ function CopyRight() {
         <>
             <div className="none sm:flex sm:justify-center">
                 <a
-                    href="https://github.com/PlayBi2"
+                    href="https://github.com/thangnv-pegasus"
                     className="mx-4 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
                     title="Github"
                 >
@@ -49,7 +49,7 @@ function CopyRight() {
                 </a>
             </div>
             <a
-                href="https://github.com/PlayBi2"
+                href="https://github.com/thangnv-pegasus"
                 className="mt-20 py-5 text-sm text-center text-lightest-slate transition-all ease-linear duration-150 block hover:text-base-color sm:mt-2"
             >
                 <p>Designed & Built by Brittany Chiang</p>

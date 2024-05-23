@@ -5,7 +5,7 @@ const projects = [
     
     {
         projectDeployLink: "http://banghehoamai.com/",
-        projectGithubLink: "https://github.com/PlayBi2/bangtot-web",
+        projectGithubLink: "https://github.com/thangnv-pegasus/bangtot-web",
         project_description:
             "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
         project_tools: ["ReactJs", "Laravel", "Tailwind", "SwiperJs"],
@@ -13,7 +13,7 @@ const projects = [
     },
     {
         projectDeployLink: "https://thangnv-portfolio.vercel.app/",
-        projectGithubLink: "https://github.com/PlayBi2/my-portfolio",
+        projectGithubLink: "https://github.com/thangnv-pegasus/my-portfolio",
         project_description:
             "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
         project_tools: ["ReactJs", "Tailwind", "AOS animation"],
@@ -21,7 +21,7 @@ const projects = [
     },
     {
         projectDeployLink: "https://chat-app-2-7b1f0.web.app/",
-        projectGithubLink: "https://github.com/PlayBi2/chat-app",
+        projectGithubLink: "https://github.com/thangnv-pegasus/chat-app",
         project_description:
             "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
         project_tools: ["ReactJs", "Firebase", "Context API", "Tailwind"],
@@ -29,7 +29,7 @@ const projects = [
     },
     {
         projectDeployLink: "https://food-shop-negative.vercel.app/",
-        projectGithubLink: "https://github.com/PlayBi2/food-shop",
+        projectGithubLink: "https://github.com/thangnv-pegasus/food-shop",
         project_description:
             "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
         project_tools: ["ReactJs", "SCSS", "TippyJs"],
@@ -37,7 +37,7 @@ const projects = [
     },
     {
         projectDeployLink: "https://tw-shop-1c92b.web.app/",
-        projectGithubLink: "https://github.com/PlayBi2/tw-shop",
+        projectGithubLink: "https://github.com/thangnv-pegasus/tw-shop",
         project_description:
             "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
         project_tools: ["ReactJs", "Tailwind", "Firebase", "Swiper"],
@@ -45,7 +45,7 @@ const projects = [
     },
     {
         projectDeployLink: "https://nd-shoes.vercel.app/",
-        projectGithubLink: "https://github.com/PlayBi2/nd-shoes",
+        projectGithubLink: "https://github.com/thangnv-pegasus/nd-shoes",
         project_description:
             "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
         project_tools: ["ReactJs", "Tailwind", "SwiperJs"],
@@ -53,7 +53,7 @@ const projects = [
     },
     {
         projectDeployLink: "https://todo-list-7e9fe.web.app/",
-        projectGithubLink: "https://github.com/PlayBi2/todo-app",
+        projectGithubLink: "https://github.com/thangnv-pegasus/todo-app",
         project_description:
             "Building a custom multisite compatible WordPress plugin to build global search with Algolia",
         project_tools: ["ReactJs", "Tailwind", "Firebase"],

@@ -6,7 +6,7 @@ function Socials() {
     return (
         <div className="fixed bg-transparent bottom-0 left-10 z-10 text-lightest-slate text-xl hidden md:block">
             <a
-                href="https://github.com/PlayBi2"
+                href="https://github.com/thangnv-pegasus"
                 className="block my-3 p-1 transition-all duration-200 ease-linear hover:translate-y-[-6px] hover:text-base-color"
             >
                 <FontAwesomeIcon icon={faGithub} />
