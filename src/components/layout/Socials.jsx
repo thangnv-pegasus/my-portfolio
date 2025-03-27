@@ -1,36 +1,37 @@
-import { faFacebook, faGithub, faInstagram, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faGithub, faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faMobileScreen } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+import { SOCIAL_LINKS } from "~/constants";
 
 function Socials() {
     return (
         <div className="fixed bg-transparent bottom-0 left-10 z-10 text-lightest-slate text-xl hidden md:block">
             <a
-                href="https://github.com/thangnv-pegasus"
+                href={SOCIAL_LINKS.GITHUB}
                 className="block my-3 p-1 transition-all duration-200 ease-linear hover:translate-y-[-6px] hover:text-base-color"
             >
                 <FontAwesomeIcon icon={faGithub} />
             </a>
             <a
-                href="https://www.instagram.com/thangnv_02/"
+                href={SOCIAL_LINKS.INSTAGRAM}
                 className="block my-3 p-1 transition-all duration-200 ease-linear hover:translate-y-[-4px] hover:text-base-color"
             >
                 <FontAwesomeIcon icon={faInstagram} />
             </a>
             <a
-                href="https://twitter.com/ThangNgv02"
+                href={`tel:${SOCIAL_LINKS.PHONE}`}
                 className="block my-3 p-1 transition-all duration-200 ease-linear hover:translate-y-[-4px] hover:text-base-color"
             >
-                <FontAwesomeIcon icon={faTwitter} />
+                <FontAwesomeIcon icon={faMobileScreen} />
             </a>
             <a
-                href="https://www.linkedin.com/in/thangngv02/"
+                href={SOCIAL_LINKS.LINKEDIN}
                 className="block my-3 p-1 transition-all duration-200 ease-linear hover:translate-y-[-4px] hover:text-base-color"
             >
                 <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
             <a
-                href="https://www.facebook.com/nvthang02/"
+                href={SOCIAL_LINKS.FACEBOOK}
                 className="block my-3 p-1 transition-all duration-200 ease-linear hover:translate-y-[-4px] hover:text-base-color"
             >
                 <FontAwesomeIcon icon={faFacebook} />

@@ -1,16 +1,16 @@
-export {default as Header} from '~/components/Header'
-export {default as AboutMe} from '~/components/AboutMe'
-export {default as Button} from '~/components/Button'
-export {default as Contact} from '~/components/Contact'
-export {default as Intro} from '~/components/Intro'
-export {default as Socials} from '~/components/Socials'
-export {default as TabContent} from '~/components/TabContent'
-export {default as TabHeading} from '~/components/TabHeading'
-export {default as Title1} from '~/components/Title1'
-export {default as Worked} from '~/components/Worked'
-export {default as GetInTouch} from '~/components/GetInTouch'
-export {default as CopyRight} from '~/components/CopyRight'
-export {default as MyProject} from '~/components/MyProject'
-export {default as ProjectDemo} from '~/components/ProjectDemo'
-export {default as Project} from '~/components/Project'
-export {default as AllProject} from '~/components/AllProject'
+export { default as Header } from "~/components/layout/Header";
+export { default as AboutMe } from "~/components/AboutMe";
+export { default as Button } from "~/components/Button";
+export { default as Contact } from "~/components/Contact";
+export { default as Intro } from "~/components/Intro";
+export { default as Socials } from "~/components/layout/Socials";
+export { default as TabContent } from "~/components/TabContent";
+export { default as TabHeading } from "~/components/TabHeading";
+export { default as Title1 } from "~/components/Title1";
+export { default as Worked } from "~/components/Worked";
+export { default as GetInTouch } from "~/components/GetInTouch";
+export { default as CopyRight } from "~/components/layout/CopyRight";
+export { default as MyProject } from "~/components/MyProject";
+export { default as ProjectDemo } from "~/components/ProjectDemo";
+export { default as Project } from "~/components/Project";
+export { default as AllProject } from "~/components/AllProject";

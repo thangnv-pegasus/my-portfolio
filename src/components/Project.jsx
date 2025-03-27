@@ -13,8 +13,6 @@ function Project({ githubLink = "", deployLink = "", tools = [], description = "
     }
     let windowScreen;
     
-
-
     useEffect(()=>{
         const element = refProject.current
         // console.log(element.offsetHeight)

@@ -29,13 +29,7 @@ function AboutMe() {
                                 <span className="text-base-color mr-2">
                                     <FontAwesomeIcon icon={faCaretRight} />
                                 </span>{" "}
-                                JavaScript (ES6)
-                            </li>
-                            <li className="flex items-center my-2">
-                                <span className="text-base-color mr-2">
-                                    <FontAwesomeIcon icon={faCaretRight} />
-                                </span>{" "}
-                                ReactJs
+                                JavaScript(ES6)
                             </li>
                             <li className="flex items-center my-2">
                                 <span className="text-base-color mr-2">
@@ -47,10 +41,22 @@ function AboutMe() {
                                 <span className="text-base-color mr-2">
                                     <FontAwesomeIcon icon={faCaretRight} />
                                 </span>{" "}
-                                Laravel, MySql
+                                ReactJs, NextJs
+                            </li>
+                            <li className="flex items-center my-2">
+                                <span className="text-base-color mr-2">
+                                    <FontAwesomeIcon icon={faCaretRight} />
+                                </span>{" "}
+                                VueJs, NuxtJs
                             </li>
                         </ul>
                         <ul>
+                            <li className="flex items-center my-2">
+                                <span className="text-base-color mr-2">
+                                    <FontAwesomeIcon icon={faCaretRight} />
+                                </span>{" "}
+                                Tailwind, ChakraUI
+                            </li>
                             <li className="flex items-center my-2">
                                 <span className="text-base-color mr-2">
                                     <FontAwesomeIcon icon={faCaretRight} />
@@ -61,13 +67,7 @@ function AboutMe() {
                                 <span className="text-base-color mr-2">
                                     <FontAwesomeIcon icon={faCaretRight} />
                                 </span>{" "}
-                                Tailwind Css
-                            </li>
-                            <li className="flex items-center my-2">
-                                <span className="text-base-color mr-2">
-                                    <FontAwesomeIcon icon={faCaretRight} />
-                                </span>{" "}
-                                NextJs(Loading)
+                                Laravel, MySql
                             </li>
                             <li className="flex items-center my-2">
                                 <span className="text-base-color mr-2">
@@ -76,7 +76,6 @@ function AboutMe() {
                                 Firebase, Cloudinary
                             </li>
                         </ul>
-                        
                     </div>
                 </div>
                 <div className="w-80 h-80 rounded-md relative z-[1] group mx-auto md:m-0 group">

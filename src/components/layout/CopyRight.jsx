@@ -1,14 +1,15 @@
-import { faCodepen, faGithub, faInstagram, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faGithub, faInstagram, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faStar } from "@fortawesome/free-regular-svg-icons";
 import { faCodeFork } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { SOCIAL_LINKS } from "~/constants";
 
 function CopyRight() {
     return (
         <>
             <div className="none sm:flex sm:justify-center">
                 <a
-                    href="https://github.com/thangnv-pegasus"
+                    href={SOCIAL_LINKS.GITHUB}
                     className="mx-4 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
                     title="Github"
                 >
@@ -16,7 +17,7 @@ function CopyRight() {
                     <FontAwesomeIcon icon={faGithub} />{" "}
                 </a>
                 <a
-                    href="https://www.instagram.com/n.e.g.a.0.1/"
+                    href={SOCIAL_LINKS.INSTAGRAM}
                     className="mx-4 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
                     title="Instagram"
                 >
@@ -24,7 +25,7 @@ function CopyRight() {
                     <FontAwesomeIcon icon={faInstagram} />{" "}
                 </a>
                 <a
-                    href="https://twitter.com/PlayBi_02"
+                    href={SOCIAL_LINKS.TWITTER}
                     className="mx-4 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
                     title=""
                 >
@@ -32,7 +33,7 @@ function CopyRight() {
                     <FontAwesomeIcon icon={faTwitter} />{" "}
                 </a>
                 <a
-                    href=""
+                    href={SOCIAL_LINKS.LINKEDIN}
                     className="mx-4 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
                     title=""
                 >
@@ -40,12 +41,12 @@ function CopyRight() {
                     <FontAwesomeIcon icon={faLinkedinIn} />{" "}
                 </a>
                 <a
-                    href=""
+                    href={SOCIAL_LINKS.FACEBOOK}
                     className="mx-4 text-xl text-lightest-slate transition-all ease-linear duration-150 hover:translate-y-[-5px] hover:text-base-color"
                     title=""
                 >
                     {" "}
-                    <FontAwesomeIcon icon={faCodepen} />{" "}
+                    <FontAwesomeIcon icon={faFacebook} />{" "}
                 </a>
             </div>
             <a

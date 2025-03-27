@@ -36,7 +36,7 @@ function Worked() {
                         }
                         onClick={() => setState(1)}
                     >
-                        GiaSuDoHang
+                        Kiaisoft
                     </li>
                     <li
                         className="h-11 leading-[42px] px-5 cursor-pointer transition-all duration-150 ease-linear border-l-2 border-solid border-green-tint hover:bg-light-navy hover:text-base-color"
@@ -107,40 +107,15 @@ function Worked() {
                     >
                         GiaSuDoHang
                     </li>
-                    {/* <li
-                        className="h-11 leading-[42px] px-5 cursor-pointer transition-all duration-150 ease-linear border-l-2 border-solid border-green-tint hover:bg-light-navy hover:text-base-color"
-                        style={
-                            state === 5
-                                ? {
-                                      borderStyle: "solid",
-                                      borderLeftWidth: "2px",
-                                      borderColor: "#64ffda",
-                                      color: "#64ffda",
-                                      background: "#112240",
-                                  }
-                                : {
-                                      borderStyle: "solid",
-                                      borderLeftWidth: "2px",
-                                      borderColor: "rgba(100,255,218,0.1)",
-                                      color: "#8892b0",
-                                      background: "transparent",
-                                  }
-                        }
-                        onClick={() => setState(5)}
-                    >
-                        MullenLowe
-                    </li> */}
                 </ul>
                 <div>
                     {state === 1 && (
                         <>
-                            <TabHeading heading="Tutoring at home @ GiaSuDoHang" subHeading="January 2023 - Present" />
+                            <TabHeading heading="Tutoring at home @Kiaisoft" subHeading="January 2024 - Present" />
                             <TabContent
                                 listContent={[
-                                    "Help students review what they have learned",
-                                    "Answer questions related to the lesson content for students",
-                                    "Guide students to solve applied exercises from easy to difficult, from basic to advanced",
-                                    "Improve students writing skills",
+                                    "Trained articles on vuejs and laravel",
+                                    "Participate in the survey form project, the mvp project of 2024",
                                 ]}
                             />
                         </>
@@ -148,7 +123,7 @@ function Worked() {
                     {state === 2 && (
                         <>
                             <TabHeading
-                                heading="Intern front-end @ Bavaan"
+                                heading="Intern front-end @Bavaan"
                                 subHeading="September 2022 - December 2022"
                             />
                             <TabContent
@@ -162,7 +137,7 @@ function Worked() {
                     {state === 3 && (
                         <>
                             <TabHeading
-                                heading="Teaching Assistant @ Ha Noi University of Education"
+                                heading="Teaching Assistant @Ha Noi University of Education"
                                 subHeading="September 2022 - December 2022"
                             />
                             <TabContent
@@ -177,7 +152,7 @@ function Worked() {
                     )}
                     {state === 4 && (
                         <>
-                            <TabHeading heading="Tutoring at home @ GiaSuDoHang" subHeading="October 2021 - May 2022" />
+                            <TabHeading heading="Tutoring at home @GiaSuDoHang" subHeading="October 2021 - May 2022" />
                             <TabContent
                                 listContent={[
                                     "Help students review what they have learned",
@@ -188,21 +163,6 @@ function Worked() {
                             />
                         </>
                     )}
-                    {/* {state === 5 && (
-                        <>
-                            <TabHeading
-                                heading="Creative Technologist Co-op @ MullenLowe"
-                                subHeading="July - December 2015"
-                            />
-                            <TabContent
-                                listContent={[
-                                    "Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery",
-                                    "Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness",
-                                    "Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more",
-                                ]}
-                            />
-                        </>
-                    )} */}
                 </div>
             </div>
         </div>

@@ -13,6 +13,7 @@ function Intro() {
             <a
                 href={MyCV}
                 className="text-base-color border-base-color border-solid border-[1px] px-5 py-3 rounded-sm mt-5 transition-all ease-linear duration-200 inline-block hover:bg-green-tint"
+                target="_self"
             >
                 Check out my CV
             </a>
