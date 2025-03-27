@@ -60,7 +60,7 @@ function MyProject() {
                 tools={["ReactJs", "Tailwind", "Firebase", "Context API"]}
                 githubLink="https://github.com/thangnv-pegasus/tw-shop"
                 deployLink="https://tw-shop-1c92b.web.app/"
-                key={2}
+                key={4}
             />
         </div>
     );

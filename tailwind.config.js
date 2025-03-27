@@ -16,8 +16,8 @@ module.exports = {
         'font_sans':["Calibre","Inter","San Francisco","SF Pro Text","-apple-system","system-ui","sans-serif"]
       },
       width:{
-        "page-width":"1424px",
-        "content-width":"1100px"
+        "page-width":"89rem",
+        "content-width":"68.75rem"
       },
       backgroundColor:{
         "base_bg":"rgba(10, 25, 47, 0.85)",
@@ -47,7 +47,7 @@ module.exports = {
       keyframes:{
         showMore:{
           "0%":{
-            height: "574px"
+            height: "35.875rem"
           },
           "100%":{
             height: "100%"

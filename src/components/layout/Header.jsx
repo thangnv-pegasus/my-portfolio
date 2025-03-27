@@ -23,42 +23,42 @@ function Header() {
 
     return (
         <div
-            className="h-24 select-none bg-base_bg w-full backdrop-blur-md text-white font-font_mono fixed transition-all duration-400 ease shadow-custom z-10 px-6 md:px-12"
+            className="h-24 select-none bg-base_bg w-full backdrop-blur-md text-white font-font_mono fixed transition-all duration-400 ease shadow-custom z-10 px-2 lg:px-6 md:px-12"
             ref={headerRef}
         >
             <div className=" max-w-full mx-auto h-24 flex items-center justify-between lg:w-page-width">
                 <Link to="/" className=" text-base-color text-4xl">
                     <FontAwesomeIcon icon={faJoomla} />
                 </Link>
-                <div className="text-lightest-slate">
-                    <div className="flex text-sm items-center">
+                <div className="text-lightest-slate text-sm sm:text-base">
+                    <div className="flex text-sm items-center gap-x-3">
                         <a
                             href="#about"
-                            className="mx-3 px-2 font-normal transition-all duration-200 hover:text-base-color text-sm"
+                            className="px-2 font-normal transition-all duration-200 hover:text-base-color text-sm"
                         >
                             About
                         </a>
                         <a
                             href="#worked"
-                            className="mx-3 px-2 font-normal transition-all duration-200 hover:text-base-color text-sm"
+                            className="px-2 font-normal transition-all duration-200 hover:text-base-color text-sm"
                         >
                             Experience
                         </a>
                         <a
                             href="#my-project"
-                            className="mx-3 px-2 font-normal transition-all duration-200 hover:text-base-color text-sm"
+                            className="px-2 font-normal transition-all duration-200 hover:text-base-color text-sm"
                         >
                             Work
                         </a>
                         <a
                             href="#get-in-touch"
-                            className="mx-3 px-2 font-normal transition-all duration-200 hover:text-base-color text-sm"
+                            className="px-2 font-normal transition-all duration-200 hover:text-base-color text-sm"
                         >
                             Contact
                         </a>
                         <a
                             href={MyCV}
-                            className="mx-3 font-normal rounded-sm px-3 py-2 border-solid border-base-color border-2 transition-all duration-200 text-base-color hover:bg-green-tint text-sm"
+                            className="font-normal rounded-sm px-3 py-2 border-solid border-base-color border-2 transition-all duration-200 text-base-color hover:bg-green-tint text-sm"
                         >
                             Resume
                         </a>
